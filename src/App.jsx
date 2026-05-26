@@ -183,15 +183,12 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-[#fffafa] font-sans text-slate-800">
-      {/* Navigation */}
       <nav className="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-[#fdbded]/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
             <div className="flex-shrink-0">
               <BrandLogo />
             </div>
-
-            {/* Desktop Menu */}
             <div className="hidden md:flex space-x-8 items-center">
               <button
                 onClick={() => scrollToSection("home")}
@@ -226,8 +223,6 @@ const App = () => {
                 Agendar Consulta
               </a>
             </div>
-
-            {/* Mobile menu button */}
             <div className="md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -238,8 +233,6 @@ const App = () => {
             </div>
           </div>
         </div>
-
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-white border-b border-[#fdbded]/30 p-4 space-y-4 shadow-xl">
             <button
@@ -277,8 +270,6 @@ const App = () => {
           </div>
         )}
       </nav>
-
-      {/* Hero Section */}
       <section id="home" className="pt-32 pb-20 px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
@@ -343,8 +334,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      {/* About Section */}
       <section id="sobre" className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-[1.15fr_0.85fr] gap-16 items-center">
           <div className="space-y-6">
@@ -387,8 +376,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      {/* Specialties Grid */}
       <section id="especialidades" className="py-24 bg-[#fdf8f9]">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16 space-y-4">
@@ -419,8 +406,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      {/* FAQ Accordion */}
       <section className="py-24 bg-white border-y border-[#fdbded]/20">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12 text-slate-800">
@@ -455,8 +440,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      {/* Location / CTA */}
       <section
         id="localizacao"
         className="py-20 px-4 bg-slate-900 text-white overflow-hidden relative"
@@ -528,8 +511,6 @@ const App = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
       <footer className="bg-white py-12 border-t border-[#fdbded]/20">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <div className="mb-8 inline-flex">
@@ -541,8 +522,6 @@ const App = () => {
           </div>
         </div>
       </footer>
-
-      {/* Floating WhatsApp Button */}
       <a
         href={whatsappUrl}
         target="_blank"

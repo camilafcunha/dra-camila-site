@@ -1,4 +1,3 @@
-# Logs
 logs
 *.log
 *.aux
@@ -15,7 +14,6 @@ dist
 dist-ssr
 *.local
 
-# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -26,5 +24,4 @@ dist-ssr
 *.sln
 *.sw?
 
-# Local project notes
 CONTEXTO_PROJETO.md
