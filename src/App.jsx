@@ -470,7 +470,7 @@ const App = () => {
                 <div>
                   <h4 className="font-bold text-lg">Atendimento</h4>
                   <p className="text-slate-400">
-                    Segunda a sexta, em horário comercial da clínica
+                    Quarta, das 8h às 12h
                   </p>
                 </div>
               </div>
